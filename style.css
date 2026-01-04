@@ -1,0 +1,39 @@
+body{
+  background:#0f172a;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.app{
+  background:#020617;
+  color:white;
+  padding:30px;
+  border-radius:12px;
+  width:300px;
+}
+
+input{
+  width:100%;
+  padding:8px;
+  margin-bottom:10px;
+}
+
+ul{
+  list-style:none;
+  padding:0;
+}
+
+li{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:6px 0;
+}
+
+.done{
+  text-decoration:line-through;
+  opacity:0.6;
+}
